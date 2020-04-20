@@ -1,4 +1,7 @@
 /*
+
+source: https://leetcode.com/problems/binary-tree-postorder-traversal/
+
 Given a binary tree, return the postorder traversal of its nodes' values.
 Example:
 Input: [1,null,2,3]
@@ -20,10 +23,6 @@ Definition for a binary tree node.
 */
 
 var postorderTraversal = function (root, result = [], stack = []) {
-    if (!root) return result;
-    postorderTraversal(root.left, result);
-    postorderTraversal(root.right, result);
-    result.push(root.value);
-    return result;
+  
 }
 module.exports = postorderTraversal
