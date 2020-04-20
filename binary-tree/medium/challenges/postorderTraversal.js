@@ -20,6 +20,10 @@ Definition for a binary tree node.
 */
 
 var postorderTraversal = function (root, result = [], stack = []) {
- 
+    if (!root) return result;
+    postorderTraversal(root.left, result);
+    postorderTraversal(root.right, result);
+    result.push(root.value);
+    return result;
 }
 module.exports = postorderTraversal
