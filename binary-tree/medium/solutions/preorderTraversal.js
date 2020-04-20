@@ -1,6 +1,6 @@
 // recursive solution
 
-var preorderTraversal_recursive = function (root, result = []) {
+var preorderTraversal = function (root, result = []) {
   if (!root) return result = [];
   result.push(root.value);
   if (root.left) preorderTraversal(root.left, result);
@@ -10,7 +10,7 @@ var preorderTraversal_recursive = function (root, result = []) {
 
 
 // iterative solution
-var preorderTraversal_iterative = function (root, result = []) {
+var preorderTraversal = function (root, result = []) {
   if (!root) return [];
   let stack = [root];
   while (stack.length) {

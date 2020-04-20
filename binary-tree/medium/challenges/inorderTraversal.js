@@ -11,9 +11,17 @@ Input: [1,null,2,3]
    3
 Output: [1,3,2]
 Follow up: Recursive solution is trivial, could you do it iteratively?
+ 
+
+Definition for a binary tree node.
+ function TreeNode(val) {
+     this.value = value;
+     this.left = this.right = null;
+ }
+
 */
 
-function inorderTraversal(curr, result = [], stack = []) {
+function inorderTraversal(root) {
 
 }
 
