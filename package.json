@@ -1,0 +1,28 @@
+{
+  "name": "datastructure-algorithm-interview-preparation",
+  "version": "1.0.0",
+  "description": "JavaScript datastructure-algorithm-interview-preparation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iachieve/datastructure-algorithm-interview-preparation.git"
+  },
+  "keywords": [
+    "datastructure",
+    "algorithm",
+    "interview",
+    "preparation"
+  ],
+  "author": "Mohamed Abdelhalim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iachieve/datastructure-algorithm-interview-preparation/issues"
+  },
+  "homepage": "https://github.com/iachieve/datastructure-algorithm-interview-preparation#readme",
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
