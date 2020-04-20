@@ -1,15 +1,11 @@
 const inorderTraversal = require('../challenges/inorderTraversal');
 const Tree = require('../../../data-structures/binary-search-tree');
-
 let tree = new Tree();
-
 tree.add(1).add(null).add(2).add(3);
+let inOrder = tree.inOrder();
 
-console.log(' ===>>>>', inorderTraversal(tree.root))
-
-describe('Binary Tree Inorder Traversal', () => {
+describe("should return the inorder traversal of its nodes' values", () => {
   it('should traverse the tree', () => {
-    let inOrder = tree.inOrder();
     expect(inorderTraversal(tree.root)).toEqual(inOrder);
   })
 });

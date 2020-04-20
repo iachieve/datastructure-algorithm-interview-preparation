@@ -4,7 +4,7 @@ let tree = new Tree();
 tree.add(1).add(null).add(2).add(3);
 let preOrder = tree.preOrder();
 
-describe('Testing PreOrder Traversal', () => {
+describe("should return the preorder traversal of its nodes' values", () => {
   it('should traverse the tree', () => {
     expect(preorderTraversal(tree.root)).toEqual(preOrder);
   })

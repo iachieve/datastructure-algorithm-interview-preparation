@@ -19,8 +19,8 @@ Definition for a binary tree node.
 
 */
 
-var preorderTraversal = function (root) {
-
-};
+var preorderTraversal = function (root, result = []) {
+ 
+}
 
 module.exports = preorderTraversal;
