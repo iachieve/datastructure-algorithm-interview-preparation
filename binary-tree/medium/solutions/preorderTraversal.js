@@ -2,7 +2,7 @@
 
 var preorderTraversal_recursive = function (root, result = []) {
   if (!root) return result = [];
-  result.push(root.val);
+  result.push(root.value);
   if (root.left) preorderTraversal(root.left, result);
   if (root.right) preorderTraversal(root.right, result);
   return result;
