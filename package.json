@@ -26,7 +26,6 @@
     "jest": "^25.4.0"
   },
   "jest": {
-    "testTimeout": 5000,
     "collectCoverage": true,
     "coverageReporters": ["html"]
   }

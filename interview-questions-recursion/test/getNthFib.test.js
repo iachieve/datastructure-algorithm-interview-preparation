@@ -41,4 +41,12 @@ describe('testing getNthFib', () => {
     expect(r).toBeDefined();
     expect(r).toBe(514229);
   });
+
+
+  // test(`test case #9`,  () => {
+  //   let r = getNthFib(50);
+  //   expect(r).toBeDefined();
+  //   expect(r).toBe(7778742049);
+  //   });
+
 });

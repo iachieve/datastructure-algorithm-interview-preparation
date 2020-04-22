@@ -1,6 +1,7 @@
 /*
 
-test command: jest interview-questions-recursion/test/productSum.test.js --watch
+test command: 
+jest interview-questions-recursion/test/productSum.test.js --watch
 
   write a function that takes in a 'special' array and return its product sum
   A 'special array' is non-empty array that contains either integers or other 'special' arrays
@@ -17,15 +18,7 @@ test command: jest interview-questions-recursion/test/productSum.test.js --watch
 */
 
 function productSum(array, multiplier = 1) {
-  let sum = 0;
-  for (const el of array) {
-    if (Array.isArray(el)) {
-      sum += productSum(el, multiplier + 1);
-    } else {
-      sum += el;
-    }
-  }
-  return sum * multiplier;
+
 }
 
 module.exports = productSum;

@@ -1,7 +1,6 @@
 const productSum = require('../challenges/productSum');
 
 describe('testing product sum', () => {
-
   it('test case #1 ', () => {
     const test = [1, 2, 3, 4, 5];
     const r = productSum(test);
@@ -22,5 +21,4 @@ describe('testing product sum', () => {
     expect(r).toBeDefined();
     expect(r).toBe(12);
   });
-
 });
