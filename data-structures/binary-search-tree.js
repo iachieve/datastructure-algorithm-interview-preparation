@@ -172,7 +172,6 @@ BinarySearchTree.prototype.findMax = function () {
   return traverse(node);
 };
 
-
 BinarySearchTree.prototype.getDepth = function () {
   var node = this.root;
   var maxDepth = 0;
