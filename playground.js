@@ -49,3 +49,15 @@
 //     return this;
 //   }
 // }
+
+
+
+
+
+function validTime(time) {
+  const [hh, mm] = time.split(':');
+  if ((Number(hh) < 0 || Number(hh) > 23) || (Number(mm) < 0 || Number(mm) > 60)) return false;
+  return true;
+}
+let time = "24:00";
+console.log(validTime(time));
