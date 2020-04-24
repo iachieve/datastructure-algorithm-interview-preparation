@@ -51,13 +51,15 @@
 // }
 
 
-
-
-
-function validTime(time) {
-  const [hh, mm] = time.split(':');
-  if ((Number(hh) < 0 || Number(hh) > 23) || (Number(mm) < 0 || Number(mm) > 60)) return false;
-  return true;
+function digitsProduct(product){
+  function digitProduct(num){
+    let prod = 1
+    while(num){
+      prod *= num % 10;
+      num = Math.floor(num / 10);
+    }
+    return prod;
+  }
+  return digitProduct(product);
 }
-let time = "24:00";
-console.log(validTime(time));
+console.log(digitsProduct(152))

@@ -10,5 +10,4 @@ function getNthFib(n) {
 
 }
 
-console.log(getNthFib(50));
 module.exports = getNthFib;
