@@ -7,5 +7,10 @@ describe("find the contiguous subarray which has the largest sum and return its 
     let expected = 6;
     expect(maxSubArray(input)).toEqual(expected);
   });
+  it('test case #2', () => {
+    let input = [-2, 2, 5, -11, 6];
+    let expected = 7;
+    expect(maxSubArray(input)).toEqual(expected);
+  });
 
 });
